@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js",
     "build": "nodemon index.js",
-    "dev":"nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "author": "akash",
   "license": "ISC",
@@ -22,7 +22,7 @@
     "express": "^4.18.2",
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.3",
-    "mongodb": "^5.5.0",
+    "mongodb": "^4.0.0",
     "mongoose": "^5.13.17",
     "node-sass-middleware": "^1.0.1",
     "nodemon": "^2.0.22",
