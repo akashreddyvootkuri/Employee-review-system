@@ -4,11 +4,13 @@
   "description": "An application that allows employees to submit feedback toward each other’s performance",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
     "seed": "nodemon seeder.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "npm i",
+    "dev":"nodemon index.js"
   },
-  "author": "akash reddy vootkuri",
+  "author": "akash",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
